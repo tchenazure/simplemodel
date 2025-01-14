@@ -66,7 +66,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random
    
 ### **Step 6: Train the Model**  
    
-We’ll use a simple **Naive Bayes** classifier, which works well for text classification tasks.  
+We’ll use a simple **Naive Bayes** classifier, which works well for text classification tasks. For more details about Naive Bayes algorithms, check out the [scikit-learn Naive Bayes documentation](https://scikit-learn.org/1.5/modules/naive_bayes.html).  
    
 ```python  
 # Initialize the classifier  
